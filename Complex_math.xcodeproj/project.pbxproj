@@ -1,0 +1,231 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB7F67021473405E009C7A7A /* cdoublemath.c in Sources */ = {isa = PBXBuildFile; fileRef = DB7F66F91473405E009C7A7A /* cdoublemath.c */; };
+		DB7F67031473405E009C7A7A /* cdoublemath.h in Headers */ = {isa = PBXBuildFile; fileRef = DB7F66FA1473405E009C7A7A /* cdoublemath.h */; };
+		DB7F67041473405E009C7A7A /* cdoublevecmath.c in Sources */ = {isa = PBXBuildFile; fileRef = DB7F66FB1473405E009C7A7A /* cdoublevecmath.c */; };
+		DB7F67051473405E009C7A7A /* cdoublevecmath.h in Headers */ = {isa = PBXBuildFile; fileRef = DB7F66FC1473405E009C7A7A /* cdoublevecmath.h */; };
+		DB7F67061473405E009C7A7A /* cintmath.c in Sources */ = {isa = PBXBuildFile; fileRef = DB7F66FD1473405E009C7A7A /* cintmath.c */; };
+		DB7F67071473405E009C7A7A /* cintmath.h in Headers */ = {isa = PBXBuildFile; fileRef = DB7F66FE1473405E009C7A7A /* cintmath.h */; };
+		DB7F67081473405E009C7A7A /* cintvecmath.c in Sources */ = {isa = PBXBuildFile; fileRef = DB7F66FF1473405E009C7A7A /* cintvecmath.c */; };
+		DB7F67091473405E009C7A7A /* cintvecmath.h in Headers */ = {isa = PBXBuildFile; fileRef = DB7F67001473405E009C7A7A /* cintvecmath.h */; };
+		DB7F670A1473405E009C7A7A /* mtxmath.h in Headers */ = {isa = PBXBuildFile; fileRef = DB7F67011473405E009C7A7A /* mtxmath.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB7F66F214733FDB009C7A7A /* libComplex_math.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComplex_math.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB7F66F91473405E009C7A7A /* cdoublemath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cdoublemath.c; sourceTree = "<group>"; };
+		DB7F66FA1473405E009C7A7A /* cdoublemath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cdoublemath.h; sourceTree = "<group>"; };
+		DB7F66FB1473405E009C7A7A /* cdoublevecmath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cdoublevecmath.c; sourceTree = "<group>"; };
+		DB7F66FC1473405E009C7A7A /* cdoublevecmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cdoublevecmath.h; sourceTree = "<group>"; };
+		DB7F66FD1473405E009C7A7A /* cintmath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cintmath.c; sourceTree = "<group>"; };
+		DB7F66FE1473405E009C7A7A /* cintmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cintmath.h; sourceTree = "<group>"; };
+		DB7F66FF1473405E009C7A7A /* cintvecmath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cintvecmath.c; sourceTree = "<group>"; };
+		DB7F67001473405E009C7A7A /* cintvecmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cintvecmath.h; sourceTree = "<group>"; };
+		DB7F67011473405E009C7A7A /* mtxmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mtxmath.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB7F66EF14733FDB009C7A7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB7F66E714733FDB009C7A7A = {
+			isa = PBXGroup;
+			children = (
+				DB7F66F91473405E009C7A7A /* cdoublemath.c */,
+				DB7F66FA1473405E009C7A7A /* cdoublemath.h */,
+				DB7F66FB1473405E009C7A7A /* cdoublevecmath.c */,
+				DB7F66FC1473405E009C7A7A /* cdoublevecmath.h */,
+				DB7F66FD1473405E009C7A7A /* cintmath.c */,
+				DB7F66FE1473405E009C7A7A /* cintmath.h */,
+				DB7F66FF1473405E009C7A7A /* cintvecmath.c */,
+				DB7F67001473405E009C7A7A /* cintvecmath.h */,
+				DB7F67011473405E009C7A7A /* mtxmath.h */,
+				DB7F66F314733FDB009C7A7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB7F66F314733FDB009C7A7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB7F66F214733FDB009C7A7A /* libComplex_math.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DB7F66F014733FDB009C7A7A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7F67031473405E009C7A7A /* cdoublemath.h in Headers */,
+				DB7F67051473405E009C7A7A /* cdoublevecmath.h in Headers */,
+				DB7F67071473405E009C7A7A /* cintmath.h in Headers */,
+				DB7F67091473405E009C7A7A /* cintvecmath.h in Headers */,
+				DB7F670A1473405E009C7A7A /* mtxmath.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DB7F66F114733FDB009C7A7A /* Complex_math */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB7F66F614733FDB009C7A7A /* Build configuration list for PBXNativeTarget "Complex_math" */;
+			buildPhases = (
+				DB7F66EE14733FDB009C7A7A /* Sources */,
+				DB7F66EF14733FDB009C7A7A /* Frameworks */,
+				DB7F66F014733FDB009C7A7A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Complex_math;
+			productName = Complex_math;
+			productReference = DB7F66F214733FDB009C7A7A /* libComplex_math.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB7F66E914733FDB009C7A7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Carnegie Mellon";
+			};
+			buildConfigurationList = DB7F66EC14733FDB009C7A7A /* Build configuration list for PBXProject "Complex_math" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB7F66E714733FDB009C7A7A;
+			productRefGroup = DB7F66F314733FDB009C7A7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB7F66F114733FDB009C7A7A /* Complex_math */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB7F66EE14733FDB009C7A7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7F67021473405E009C7A7A /* cdoublemath.c in Sources */,
+				DB7F67041473405E009C7A7A /* cdoublevecmath.c in Sources */,
+				DB7F67061473405E009C7A7A /* cintmath.c in Sources */,
+				DB7F67081473405E009C7A7A /* cintvecmath.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DB7F66F414733FDB009C7A7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DB7F66F514733FDB009C7A7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DB7F66F714733FDB009C7A7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB7F66F814733FDB009C7A7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB7F66EC14733FDB009C7A7A /* Build configuration list for PBXProject "Complex_math" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB7F66F414733FDB009C7A7A /* Debug */,
+				DB7F66F514733FDB009C7A7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB7F66F614733FDB009C7A7A /* Build configuration list for PBXNativeTarget "Complex_math" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB7F66F714733FDB009C7A7A /* Debug */,
+				DB7F66F814733FDB009C7A7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB7F66E914733FDB009C7A7A /* Project object */;
+}
